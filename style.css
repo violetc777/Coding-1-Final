@@ -211,3 +211,78 @@ footer {
   border-left: 3px solid #fcd2e2;
   padding-left: 1rem;
 }
+.contact-details {
+  background-color: #fff0f8;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(220, 150, 170, 0.2);
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.contact-details h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #d17896;
+  margin-bottom: 1rem;
+}
+
+.contact-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-details ul li {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.contact-details a {
+  color: #a25d79;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-details a:hover {
+  color: #d17896;
+}
+.contact-section {
+  max-width: 600px;
+  margin: 100px auto 0 auto; /* top margin to separate from navbar */
+  text-align: center;
+  padding: 20px;
+  border: 2px dotted #f2c0d7;
+  background-color: #fff0f5;
+  border-radius: 10px;
+}
+
+.contact-section h2 {
+  color: #e91e63;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact-section input,
+.contact-section textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+.contact-section button {
+  background-color: #ff69b4;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-info {
+  margin-top: 20px;
+  font-size: 14px;
+}
